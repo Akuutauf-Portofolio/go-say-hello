@@ -5,6 +5,10 @@ package go_say_hello
 // cara membuat tag : git tag v1.0.0
 // kemudian lakukan push : git push origin v1.0.0
 
+// updgrade module
+// bisa dilakukan dengan melakukan perubahan terlebih dahulu
+// kemudian dilakukan commit, dan melakukan push tag yang baru
+
 func SayHello() string {
-	return "Hello"
+	return "Hello World"
 }
